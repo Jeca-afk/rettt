@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(60, 32, 109)
+}
+h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: lightblue;
+}
+h2{
+    background-color: blueviolet;
+    color: lightblue;
+}
+h3{
+    background-color: purple;
+    color: lightblue;
+}  
+h4{
+    background-color: darkorchid;
+    color: lightblue;
+}
+header{
+    background-color:rgb(60, 32, 109);
+}
+.f{
+    background-color: lightblue;
+    border-radius: 911px;
+    padding: 10px;
+    margin: 35px;
+    text-decoration: dotted;
+    color: black;
+    
+}
+img{
+    margin: 30px;
+    border-radius: 10px;
+}
+p{
+   color: lightblue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+img:hover{
+    transform: scale(2);
+    transition: all 1s linear;
+    
+}
+footer{
+    background-color: blueviolet;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightblue
+} 
+a:hover{
+    background-color: pink;
+    color: brown;
+    transform:  scale(2);
+    transform: translateX(2), translateY(2);
+}
+a{
+    transform: scale(1);
+    transition: all 3s linear;
+}
